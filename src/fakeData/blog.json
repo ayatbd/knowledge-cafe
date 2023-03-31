@@ -1,0 +1,47 @@
+[
+    {
+      "id": "64267d684bcd40a0810c109b",
+      "blog_picture": "http://placehold.it/32x32",
+      "author_name": "Willa Sparks",
+      "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "published_in": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer",
+      "reading_time": "05 min read"
+    },
+    {
+      "id": "64267d6814550309996b2626",
+      "blog_picture": "http://placehold.it/32x32",
+      "author_name": "Rachel Hood",
+      "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "published_in": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer",
+      "reading_time": "05 min read"
+    },
+    {
+      "id": "64267d6818ab5f3b5a2ca09a",
+      "blog_picture": "http://placehold.it/32x32",
+      "author_name": "Sherri David",
+      "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "published_in": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer",
+      "reading_time": "05 min read"
+    },
+    {
+      "id": "64267d68d4beb30ce1b1ecc0",
+      "blog_picture": "http://placehold.it/32x32",
+      "author_name": "Colon Baker",
+      "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "published_in": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer",
+      "reading_time": "05 min read"
+    },
+    {
+      "id": "64267d68b67815a72402ab80",
+      "blog_picture": "http://placehold.it/32x32",
+      "author_name": "Floyd Mcfadden",
+      "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "published_in": "Mar 14 (4 Days ago)",
+      "title": "How to get your first job as a self-taught programmer",
+      "reading_time": "05 min read"
+    }
+  ]
