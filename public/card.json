@@ -1,0 +1,38 @@
+[
+  {
+    "id": "6426a6bac9171f9ef313afd8",
+    "blog_picture": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "author_name": "Caitlin Blevins",
+    "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "published_in": "Mar 14 (4 Days ago)",
+    "title": "How to get your first job as a self-taught programmer",
+    "reading_time": "05 min read"
+  },
+  {
+    "id": "6426a6ba570f51df1df243c3",
+    "blog_picture": "https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "author_name": "Gwendolyn Bray",
+    "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "published_in": "Mar 14 (4 Days ago)",
+    "title": "How to get your first job as a self-taught programmer",
+    "reading_time": "05 min read"
+  },
+  {
+    "id": "6426a6baf9a2ef89e5458455",
+    "blog_picture": "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "author_name": "Blackwell Kidd",
+    "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "published_in": "Mar 14 (4 Days ago)",
+    "title": "How to get your first job as a self-taught programmer",
+    "reading_time": "05 min read"
+  },
+  {
+    "id": "6426a6baff1cfec25995932c",
+    "blog_picture": "https://images.pexels.com/photos/2010794/pexels-photo-2010794.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "author_name": "Lynn Albert",
+    "author_img": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "published_in": "Mar 14 (4 Days ago)",
+    "title": "How to get your first job as a self-taught programmer",
+    "reading_time": "05 min read"
+  }
+]
