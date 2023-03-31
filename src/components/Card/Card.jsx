@@ -13,7 +13,7 @@ const Card = () => {
     }, []);
 
     return (
-        <div className='grid grid-cols-3 gap-4 items-start'>
+        <div className='grid grid-cols-3 gap-7 items-start'>
             <div className='col-span-2'>
                 {
                     data.map((singleData)=><Contents singleData={singleData}></Contents>)

@@ -5,7 +5,7 @@ const Contents = (props) => {
   const { id, blog_picture, author_name, author_img, title, published_in, reading_time } =
     props?.singleData;
   return (
-    <div className="mb-5">
+    <div className="mb-8">
       <div className="card card-compact w-100 bg-base-100 shadow-xl">
         <figure>
           <img className="w-full h-96" src={blog_picture} alt="Shoes" />
