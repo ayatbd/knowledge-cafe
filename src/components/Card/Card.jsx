@@ -7,9 +7,11 @@ const Card = () => {
     const [data, setData] = useState([]);
     const [count, setCount] = useState(0);
 
-    // const handleButtonClick () => {
-    //     count = count+1;
-    // }
+    const handleReadingTime = (singleData) => {
+        count = count + parseInt(singleData.reading_time)
+        setData()
+        console.log(setCount(count));
+      };
     
     useEffect(() => {
         fetch('card.json')
@@ -21,7 +23,7 @@ const Card = () => {
         <div className='grid grid-cols-3 gap-7 items-start'>
             <div className='col-span-2'>
                 {
-                    data.map((singleData)=><Contents singleData={singleData} setCount={setCount}></Contents>)
+                    data.map((singleData)=><Contents handleReadingTime={handleReadingTime} singleData={singleData} setCount={setCount}></Contents>)
                 }
             </div>
             <Bookmarks></Bookmarks>

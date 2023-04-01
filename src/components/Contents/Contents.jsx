@@ -1,13 +1,11 @@
 import React from "react";
 
 const Contents = (props) => {
-  console.log(props.setCount);
   const { id, blog_picture, author_name, author_img, title, published_in, reading_time } =
     props?.singleData;
 
-    const handleReadingTime () =>{
-      console.log('hello')
-    }
+    const handleReadingTime = props.handleReadingTime;
+
   return (
     <div className="mb-8">
       <div className="card card-compact w-100 bg-base-100 shadow-xl">
@@ -34,7 +32,7 @@ const Contents = (props) => {
              </div>
           </div>
           <h2 className="text-4xl font-bold">{title}</h2>
-          <p onClick={handleReadingTime}  className="underline cursor-pointer hover:text-green-900 text-green-700" href="">Mark as read</p>
+          <p onClick={()=>handleReadingTime(props.singleData)} className="underline cursor-pointer hover:text-green-900 text-green-700" href="">Mark as read</p>
         </div>
       </div>
     </div>
