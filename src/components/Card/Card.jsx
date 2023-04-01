@@ -7,9 +7,9 @@ const Card = () => {
     const [data, setData] = useState([]);
     const [count, setCount] = useState(0);
 
-    const handleButtonClick () => {
-        count = count+1;
-    }
+    // const handleButtonClick () => {
+    //     count = count+1;
+    // }
     
     useEffect(() => {
         fetch('card.json')
