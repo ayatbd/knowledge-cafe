@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Bookmarks = (props) => {
+    // console.log(props.ToastContainer)
     return (
         <div className=''>
             <h3 className='text-2xl bg-indigo-100 rounded text-center py-3'>Spent time on read : {props.count} min</h3>

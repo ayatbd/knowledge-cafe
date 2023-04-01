@@ -1,22 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import Contents from '../Contents/Contents'
 import Bookmarks from '../Bookmarks/Bookmarks'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Card = () => {
-
     const [data, setData] = useState([]);
     const [count, setCount] = useState(0);
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState([]);
+    const [buttonClicked, setButtonClicked] = useState(false);
 
     const handleCardTotalClick = (singleData) =>{
         const newCart = [...cart, singleData];
         setCart(newCart);
+        if (!buttonClicked) {
+            setButtonClicked(true);
+        } else {
+            toast('Button clicked already!');
+        }
     }
 
     const handleReadingTime = (singleData) => {
         const newCount = count + parseInt(singleData.reading_time);
         setCount(newCount);
-        // console.log(singleData.reading_time)
       };
     
     useEffect(() => {
@@ -26,7 +32,9 @@ const Card = () => {
     }, []);
 
     return (
-        <div className='grid grid-cols-3 gap-7 items-start'>
+        <>
+        <ToastContainer />
+        <div className='md:grid grid-cols-3 gap-7 items-start'>
             <div className='col-span-2'>
                 {
                     data.map((singleData)=><Contents 
@@ -39,6 +47,7 @@ const Card = () => {
             </div>
             <Bookmarks cart={cart} count={count}></Bookmarks>
         </div>
+        </>
     );
 };
 
